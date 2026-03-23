@@ -6,6 +6,7 @@ class Library:
 
     def display_available_books(self):
         print(f"\n--- Books Available in {self.library_name} ---")
+        print(f"\n--- Books Available in {self.library_name} ---")
         if not self.available_books:
             print("No books are currently available.")
         else:
